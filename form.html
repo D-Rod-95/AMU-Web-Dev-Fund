@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta
+      name="description"
+      content="Explore vintage sports cards from baseball, basketball, and football at Vintage Sports Card Collectors."
+    >
+    <meta
+      name="keywords"
+      content="vintage sports cards, baseball cards, basketball cards, football cards, collectibles"
+    >
+    <meta name="author" content="Daniel Rodriguez" >
+    <meta name="author" content="Daniel Rodriguez" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Vintage Sports Card Collectors</title>
+    <link rel="stylesheet" type="text/css" href="rodriguezDanielStyles.css" >
+
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="DanielRodriguezHome.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <a href="DanielRodriguezHome.html">Home</a>
+          <a href="RodriguezDanielAbout.html">About</a>
+	  <a href="table.html">Table</a>
+	  <a href="form.html">Form</a>
+        </div>
+      </div>
+    </div>
+     
+        <h1>Sports Trading Cards Form</h1>
+        <form action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <fieldset>
+                <legend>Type of Cards Interested In:</legend>
+                <input type="radio" id="vintage" name="card_type" value="vintage">
+                <label for="vintage">Vintage</label><br>
+                <input type="radio" id="new" name="card_type" value="new">
+                <label for="new">New</label><br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Favorite Sports:</legend>
+                <input type="checkbox" id="baseball" name="favorite_sports" value="baseball">
+                <label for="baseball">Baseball</label><br>
+                <input type="checkbox" id="basketball" name="favorite_sports" value="basketball">
+                <label for="basketball">Basketball</label><br>
+                <input type="checkbox" id="football" name="favorite_sports" value="football">
+                <label for="football">Football</label><br>
+                <input type="checkbox" id="hockey" name="favorite_sports" value="hockey">
+                <label for="hockey">Hockey</label><br>
+            </fieldset><br>
+
+            <label for="card_brand">Preferred Card Brand:</label>
+            <select id="card_brand" name="card_brand">
+                <option value="topps">Topps</option>
+                <option value="panini">Panini</option>
+                <option value="upper_deck">Upper Deck</option>
+                <option value="fleer">Fleer</option>
+            </select><br><br>
+
+            <label for="comments">Additional Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+   </body>
+</html>

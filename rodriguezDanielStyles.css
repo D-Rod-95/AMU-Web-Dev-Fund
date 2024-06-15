@@ -1,3 +1,4 @@
+
 body {
   background-color: #e3c487;
   font-family: "Roboto", sans-serif;
@@ -118,3 +119,85 @@ p {
   max-width: 100%;
   height: auto;
 }
+
+.connect-contact-container {
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.connect-container {
+  border: 2px solid #4a3828;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.contact-container {
+  border: 2px solid #4a3828;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.category-container ul,
+.connect-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-container li,
+.connect-container li {
+  margin-bottom: 10px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #999;
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    margin: 10px;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+table, th, td {
+    border: 1px solid #999;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+legend {
+    font-weight: bold;
+}
+
+fieldset {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+form {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+
+
+
